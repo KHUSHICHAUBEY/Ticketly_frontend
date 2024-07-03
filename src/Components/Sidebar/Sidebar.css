@@ -1,0 +1,180 @@
+.categories-sidebar{
+    width: 100%;
+    background-color: #f0f0f0;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.categories-sidebar h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.categories-sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.categories-sidebar ul li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.categories-sidebar ul li:hover {
+  background-color: #e0e0e0;
+}
+
+.new-label {
+  margin-top: 20px;
+  text-align: left;
+}
+.btn1{
+  padding: 50px;
+  font-size: 14px;
+}
+.new-label input {
+  width: calc(100% - 80px);
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.new-label button {
+  /* width: 80px; */
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.new-label button:hover {
+  background-color: #859dbb;
+}
+
+.add-label-link {
+  display: block;
+  padding: 8px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.add-label-link:hover {
+  background-color: #3a3636;
+}
+
+.create-ticket-link {
+  margin-top: 10px;
+  text-align: center;
+  border: 1px solid black; /* Add a border with black color */
+  padding: 10px; /* Add padding for spacing */
+}
+
+.create-ticket-link a {
+  text-decoration: none;
+  color: black;
+}
+
+.create-ticket-link a:hover {
+  text-decoration: underline;
+}
+
+
+
+.filter-sidebar {
+  width: 100%;
+  /* width: 180px; */
+  background-color: #f0f0f0;
+  /* right: 20p; Adjusted to position the filter on the right side */
+  box-sizing: border-box;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.filter-sidebar h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.filter-sidebar label {
+  display: block;
+  margin-top: 10px;
+}
+
+.filter-sidebar input[type="text"],
+.filter-sidebar input[type="date"],
+.filter-sidebar select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box; /* Ensure the inputs fit within the container */
+}
+
+.filter-sidebar button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filter-sidebar button:hover {
+  background-color: #0056b3;
+}
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+.ticket-form-container {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  max-width: 800px; /* Adjust width as needed */
+  width: 100%; /* Ensure it takes full width within the max-width limit */
+}
+
+.cancel-btn {
+  margin-top: 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cancel-btn:hover {
+  background-color: #df372c;
+}

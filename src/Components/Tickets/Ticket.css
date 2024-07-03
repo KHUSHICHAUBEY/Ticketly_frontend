@@ -1,0 +1,225 @@
+.ticket-container {
+  /* margin: 20px auto;
+  padding: 20px; */
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* overflow-y: scroll; */
+}
+.count{
+  padding: 3px 15px 3px 15px;
+   background-color : #007bff;
+    border-radius : 15px;
+    color:white;
+}
+.ticket-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.ticket-item {
+  margin-bottom: 10px;
+}
+
+.ticket-info {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.ticket-info p {
+  margin: 0;
+}
+
+.tabs {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  list-style-type: none;
+}
+
+.tab {
+  flex: 1;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+.tab:hover {
+  background-color: #ddd;
+}
+
+.tab.active {
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+/* New styles for react-table integration */
+.ticket-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.ticket-table th,
+.ticket-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.ticket-table th {
+  background-color: #f0f0f0;
+}
+
+.ticket-table tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+.ticket-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.ticketing-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f8f9fa;
+    overflow-y:scroll;  
+  }
+  
+.user-box {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 8px 16px;
+  height:12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-box p {
+  font-size: 16px;
+}
+
+
+.image {
+  height: 200%;
+  margin-right: 10px;
+}
+
+
+
+.logout-button {
+  margin-right: 20px; /* Adjust margin as needed */
+  margin-left: 30px;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #fff;
+  border-right: 1px solid #ddd;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  overflow-y: scroll; 
+}
+
+.content {
+  width: 80vw;
+  padding: 10px;
+  background-color: white;
+  border-left: 1px solid #ddd;
+  overflow-y: scroll;
+  overflow-x: scroll; /* Horizontal scrollbar */
+}
+
+.ticketing-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+  overflow-y: scroll;
+}
+
+.user-header {
+  background-color: #c1d3de;
+  padding: 10px 10px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  color: white;
+  /* width : 100%; */
+}
+
+.user-box {
+  display: flex;
+  align-items: center;
+  padding : 10px 20px;
+  border-radius: 15px;
+}
+
+.user-box p {
+  margin: 0;
+  font-size: 5px;
+  color: #fff;
+  margin-left: 90px;
+}
+
+
+.main-content {
+  display: flex;
+  flex: 1;
+  overflow-y: hidden;
+}
+
+.sidebar {
+  width: 20vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #fff;
+  border-right: 1px solid #ddd;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  width: 80vw;
+  padding: 10px;
+  background-color: white;
+  overflow-y: auto;
+  overflow-x: auto; /* Horizontal scrollbar */
+}
+
+/* Styling for Categories and Filter components */
+.left-bar {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn2{
+  
+    /* padding: 50px; */
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    background-color: #007bff;
+    font-size: 14px;
+  color: white;
+}
